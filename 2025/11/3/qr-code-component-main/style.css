@@ -1,0 +1,53 @@
+body {
+    background-color: hsl(212, 45%, 89%);
+    font-size: 15px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    margin: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.background {
+    display: flex;
+    justify-content: center;  /* 水平方向の中央 */
+    align-items: center;      /* 垂直方向の中央 */
+    min-height: 100vh;        /* 画面全体の高さを確保 */
+    width: 100%;
+}
+
+.card {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 15px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    margin: 40px auto;
+    width: 250px;
+}
+
+.card img {
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.card-text {
+    color: hsl(218, 44%, 22%);
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.card-subtext {
+    color: hsl(216, 15%, 48%);
+    margin-bottom: 20px;
+}
+
+@media (min-width: 375px) {
+    .card {
+        width: 300px;
+    }
+}
